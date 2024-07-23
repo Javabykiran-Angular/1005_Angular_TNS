@@ -1,0 +1,73 @@
+Last Lecture Agenda
+1 Literal
+	var a:number|string;
+	var a:50|string;
+	var a:null|string;
+	
+2 type assertion
+	1 angle bracket
+	var a:any;
+		var temp=(<string> a)
+	2 as synatx
+		var temp=( a as string );
+		
+	
+3 Operators
+	
+4 control statement/sequential statement
+	if,if-esle,nested if-else ,swtich,break,continue
+5 Loop Statement
+	while,do-while, for ,foreach 
+	for(var i=0;i<4;i++){
+	...
+	}
+	
+6 var Vs Let Vs const
+	for(let i=0;i<4;i++){
+	...
+	}
+	const pi=3.14;
+7 Functions => User defined 
+	function add1(){
+	....
+	}
+	add1();
+	
+	function add2(a:numebr,b:number){
+	....
+	}
+	
+	function add3():number{
+		return (8+8);
+	}
+	
+	function add4(a:number,b:number):number{
+		return (a+b);
+	}
+	
+	
+
+summary & Interview Questions
+1 How to use Literal
+2 Why we use Type Assertion?
+3 Explain Operators
+4 Which are loop statement & control statement
+5 Difference between var Vs let Vs const
+
+
+Today's Lecture Agenda
+1 Anonymous Functions
+3 fat arrow function
+4 optional parameter Functions
+5 Default parameter function
+6 basics of Array
+7 join method
+8 foreach method 
+ 
+
+
+summary & Interview Questions
+1 What is Anonymous function?
+2 How to use fat arrow function?
+3 Explain optional parameter function?
+4 Explain default parameter function?
