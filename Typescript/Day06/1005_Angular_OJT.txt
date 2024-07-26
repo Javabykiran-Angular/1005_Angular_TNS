@@ -1,0 +1,45 @@
+Last Lecture Agenda
+1 rest parameter function
+	function display(...item:number[]){
+		...
+	}
+	
+	display(10,20);
+	
+2 Push & pop Method
+	LIFO 
+	a.push(10);
+	a.push(20,30);
+	let temp=a.pop();
+3 Splice method
+	a.splice(1,0,45);
+	a.splice(2,1);
+	a.splice(3,1,80);
+	
+4 slice
+	let copyarr= a.slice(1,5);
+	
+5 map 
+	let temp= a.map((value)=>{
+		return (value*value);
+	});
+	
+6 Array Destructor 
+	let [t1,t2,t3,t4]=a;
+	let [t1,...arr]=a;
+	
+
+summary & Interview Questions
+1 Explain Rest Parameter function?
+2 Why we use push & pop Method
+
+
+Today's Lecture Agenda
+1 Shallow copy & deep copy 
+2 swap 2 variable without using 3rd variable?
+3 write a function to return multiple value/operation to collect into the variable
+
+summary & Interview Questions
+1 What is Array Destructor?
+2 How to swap 2 variable without using 3rd variable?
+3 write a function to return multiple value 
