@@ -1,0 +1,50 @@
+Last Lecture Agenda
+1 Shallow copy & deep copy 
+	let a:number=10;
+	let b=a;
+	
+	b=12;
+	...
+
+let arr=[10,20,30];
+let arr1=arr;
+
+arr1[0]=90;
+
+let [...arr2]=arr;
+arr2[2]=450;
+	
+2 swap 2 variable without using 3rd variable?
+	let a=10;
+	let b=20;
+	[a,b]=[b,a];
+	
+3 write a function to return multiple value/operation to collect into the variable
+
+	function operation(a:number,b:number){
+		return [a+b,a-b,a*b];
+	}
+	
+	let [add,sub,mul]=operation(10,3);
+	..
+
+summary & Interview Questions
+1 What is Array Destructor?
+2 How to swap 2 variable without using 3rd variable?
+3 write a function to return multiple value 
+
+Today's Lecture Agenda
+1 Json Object 
+2 Array Of Object Class
+3 Class
+4 Property
+5 Method
+6 Constructor
+7 Access Specifier
+
+
+summary & Interview Questions
+1 Explain Array of Object
+2 What is Object 
+3 What is property,class & object?
+
