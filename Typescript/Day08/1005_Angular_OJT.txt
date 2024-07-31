@@ -1,0 +1,96 @@
+Last Lecture Agenda
+1 Json Object 
+	let obj={
+		id:9,
+		fname:"sumit",
+		...
+	}
+	
+	console.log(
+		obj.id 
+		obj.fname 
+	)
+	
+	console.log(
+		obj["id"] 
+		obj["fname"] 
+	)
+	
+2 Array Of Object Class
+	let prodArr=[
+		{
+			id:9,
+			"fname":'sumit',
+			country:{
+				cid:6
+				cname:"India"
+			}.
+			month:[..],
+			result:[
+				{
+					
+				}
+			]
+			
+		},
+		{
+			id:9,
+			"fname":'sumit',
+			
+		},
+		{
+			id:9,
+			"fname":'sumit',
+			
+		}
+	]
+	
+	for(let i=0;i<prodArr.length;i++){
+	
+		prodArr[i].id 
+		prodArr[i].country.cname
+		prodArr[i]..month.join("")
+		
+		prodArr[i]/result.forEach((item)=>{
+			item.subj
+			item.marks
+		})
+		
+	
+3 Class
+	class Myclass{
+		id:number;
+		
+		constructor(id:number){
+			this.id=id;
+			
+		}
+		
+		display(){
+			this.id;
+			
+		}
+		
+	}
+	
+	let obj=new Myclass(9,...);
+	obj.display();
+	
+4 Property
+5 Method
+6 Constructor
+7 Access Specifier
+
+summary & Interview Questions
+1 Explain Array of Object
+2 What is Object 
+3 What is property,class & object?
+
+Today's Lecture Agenda
+1 access in same package
+2 access in Different package
+3 Inheritance
+4 method Override
+
+summary & Interview Questions
+1 How to use inheritance?
