@@ -1,0 +1,46 @@
+Last Lecture Agenda
+1 access in same package
+export class Myclass{
+..
+}
+
+demo2.ts
+import {Myclass} from './demo1';
+....
+
+2 access in Different package
+demo2.ts
+import {Myclass} from '../Day08/demo1';
+...
+
+3 Inheritance
+	export class Shape{
+		myArea(){
+		...
+		}
+	}
+	
+export class Circle extends Shape{
+	
+	constructor(...){
+		super();
+	}
+	
+	override myArea(){
+		this.area=3.14*..
+	}
+	
+}
+4 method Override
+
+summary & Interview Questions
+1 How to use inheritance?
+
+
+Today's Lecture Agenda
+1 Interface
+2 Composition/ has a relationship
+
+summary & Interview Questions
+1 How to use interface
+2 what is composition
