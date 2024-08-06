@@ -1,0 +1,23 @@
+<p>propertybinding works!</p>
+
+<!-- synatx
+    [htmlAttribute/directive/CustomAttribute]="propertyName"
+    - u can apply any html attribute 
+    - property binding is always apply on attribute
+-->
+    
+
+<input type="text" placeholder="Enter the Name" [value]="name" ><br><br>
+
+<img class="myclass" [src]="imgUrl" alt="">
+<hr>
+
+<h3>difference between String interpolation & property Binding</h3>
+
+<div hidden=" {{isHidden}} ">
+    Display the Text using String Interpolation
+</div>
+
+<div [hidden]="isHidden" >
+    Display the Text using Property binding
+</div>
