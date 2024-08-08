@@ -1,0 +1,79 @@
+Last Lecture Agenda
+1 Data Binding
+  - U can send or receive data in view file as well as component file 
+  - Its bind a data in particular property 
+  - It has 2 types
+	1 one way data binding
+		- Data is send from component file to view file.so it is called one way data binding
+		1 string interpolation => if u want render data dynamically then we use string interpolation
+		2 Property Binding => if u want send data to property with html attribute 
+		3 Style Binding => apply style dynamically 
+		4 Class Binding => apply classes dynamically 
+	2 Two way data Binding 
+		- Data direction is in two way format => i.e. data send from view file to component & vice versa 
+	    - ngModel 
+	
+2 String Interpolation
+	<h2> {{name}}</h2>
+	<h2> {{"..."+name}}</h2>
+	<img src="{{imgUrl}}">
+	
+	.ts
+	name:string='...';
+	imgUrl:string='...'
+	
+	
+3 Property Binding
+	<input [value]="name">
+	<img [src]="imgUrl">
+	.ts
+	name:string='...';
+	imgUrl:string='...'
+	
+	
+4 difference between String interpolation & property Binding 
+	<div hidden=" {{isHidden" >
+		....
+	</div>
+	
+	<div [hidden]="isHidden}} " >
+		....
+	</div>
+	
+	.ts 
+	isHidden:boolean=false;
+
+5 Style Binding
+	<h2 [style.color]="mycolor" > ... </h2>
+	<h2 [style.color]="rating<4?'red':'green'" > ... </h2>
+	<div [ngStyle]="jsonObj">
+		
+	</div>
+	.ts 
+	mycolor:string=='red';
+	
+	jsonObj={
+		
+	}
+
+summary & Interview Questions
+1 Explain Data Binding
+2 Explain String Interpolation
+3 Explain Property Binding 
+4 What is difference between String interpolation & property Binding 
+ 
+
+
+Today's Lecture Agenda
+1 class Binding
+2 Event Binding
+	- data/request flow from view file to component file 
+	
+3 Click Event 
+	
+
+summary & Interview Questions
+1 How to implement Style Binding
+2 Explain Class Binding
+3 What is $event?
+4 What is DOM?
