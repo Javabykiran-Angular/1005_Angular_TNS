@@ -1,0 +1,54 @@
+Last Lecture Agenda
+1 class Binding
+	
+	<h2 [class]="myclass" > Apply Class Binding</h2>
+	<h2 [class.danger]="rating<4" > Apply Class Binding</h2>
+	<div [ngClass]="json">
+		....
+	</div>
+	
+	.ts 
+	myclass:string='success';
+	rating:number=2;
+	json={
+		'success':!this.isError,
+		'danger':this.isError,
+		'special':this.isSpecial
+	}
+	
+2 Event Binding
+	- data/request flow from view file to component file 
+	
+	<button (click)="onClick()" >Click</button>
+	
+	.ts 
+	onClick(){
+	...
+	}
+	
+3 Click Event 
+	<img (click)="onImage()" src="...">
+	
+	.ts 
+	
+	onImage(){
+	
+		..
+	}
+	
+
+summary & Interview Questions
+1 How to implement Style Binding
+2 Explain Class Binding
+
+
+Today's Lecture Agenda
+1 $event
+2 Template Ref Variable
+3 Real Time example
+
+summary & Interview Questions
+1 What is $event?
+2 What is DOM?
+3 What is Template Ref Variable
+4 How to implement real time example
