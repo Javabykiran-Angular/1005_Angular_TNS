@@ -1,0 +1,63 @@
+Last Lecture Agenda
+1 $event
+	<button value="..." (click)="onClick($event)">
+	.ts 
+	onClick(myevent:any){
+	...
+	myevent.target.value
+	}
+2 Template Ref Variable
+	<input #myinput>
+		<button  (click)="onClick(myinput)">
+		.ts 
+		onClick(myinput:any){
+		...
+		myinput.style.background="green"
+		....
+		myinput.value 
+		
+		}
+3 Real Time example
+	<input #num1>
+	<input #num2>
+	<button (click)="onAddition(num1.value,num2.value)">
+	<input [value]="result">
+	.ts 
+	onAddition(num1:any,num2:any){
+	let n1=+num1;
+	let n2=+num2;
+		this.result=n1+n2;
+	}
+
+summary & Interview Questions
+1 What is $event?
+2 What is DOM?
+3 What is Template Ref Variable
+4 How to implement real time example
+
+Today's Lecture Agenda
+1 change event 
+2 K/B Event
+	1 keyup
+	2 keydown
+2 Event Filtering
+	- u can apply on specific key 
+3 event binding without event Handler 
+	- pre condition
+			u have to create a property 
+			- one line logic is there
+4 Two way data binding
+	- ngModel 
+	- It is attribute directive 
+	- It gets a updatated data into the property
+	- We have to import FormsModule into app.module.ts file => import section 
+	- we used one notation i.e banana in box noatation
+	- [(ngModel)]="property Name"
+	- u can apply any html tag 
+
+summary & Interview Questions
+1 explain k/b event?
+2 What is event filtering?
+3 What is Two way data binding?
+4 Explain ngModel?
+5 what is purpose of ngModel?
