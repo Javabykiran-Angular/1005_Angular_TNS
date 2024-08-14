@@ -1,0 +1,32 @@
+ul{
+    list-style: none;
+}
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: palevioletred;
+}
+tr,th,td{
+    border: 1px solid;
+}
+th{
+    background-color: black;
+    color: white;
+}
+caption,th,td{
+    text-align: center;
+    padding: 0.5rem;
+
+}
+caption{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+tr:nth-of-type(2n){
+    background-color: aqua;
+    
+}
