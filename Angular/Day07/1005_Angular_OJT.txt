@@ -1,0 +1,36 @@
+Last Lecture Agenda
+1 Structural Directive
+	- DOM Structure u can update/manipulate/hide a particular element dynamically 
+	1 *ngIf => u can check the condition on view file dynamically
+	2 *ngFor => to iterate dynamically 
+	3 *ngSwitch => to execute a specific condition 
+2 if directive
+	ng-template => It is component Directive
+	
+	<div *ngIf="rating<4;else myelsepart">	
+	...
+	</div>
+	
+	<ng-template #myelsepart>
+		...
+	</ng-template>
+	
+3 for directive
+
+summary & Interview Questions
+1 What is structural directive
+2 How *ngIf works?
+3 Why we use *ngFor directive?
+
+
+Today's Lecture Agenda
+1  Mouse Event
+	1 mouseover
+	2 mouseout 
+2 *ngSwitch Directive
+
+summary & Interview Questions
+1 How to use mouse event?
+2 Where to Use of mouseover event?
+3 Where to Use of mouseout event?
+4 How to use Switch Directive
