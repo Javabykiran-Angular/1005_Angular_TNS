@@ -1,0 +1,43 @@
+Last Lecture Agenda
+1 Mouse Event
+	1 mouseover
+		<tr (mouseover)="onMouseOver(item)"
+			[ngClass]="{
+				'highlight':selected===item.name
+			}"
+			
+			(mouseout)="onMouseOut()"
+		
+	2 mouseout 
+	
+	.ts 
+	onMouseOver(item:any){
+		this.selected=item.name;
+	}
+	
+	onMouseOut(){
+		thsi.selected="";
+	}
+2 *ngSwitch Directive	
+
+summary & Interview Questions
+1 How to use mouse event?
+2 Where to Use of mouseover event?
+3 Where to Use of mouseout event?
+4 How to use Switch Directive
+
+
+Today's Lecture Agenda
+1 Component Interaction
+	- U can send data from one component to another component
+	- parent-child relation establishment
+2 @Input()
+	- To send a data from parent component to child component
+3 @Output()
+	- To send data from child component to parent component
+
+summary & Interview Questions
+1 What is Component interaction
+2 How to use component interaction
+3 why we use @input decorator?
+4 How we can send data from one component to another component?
