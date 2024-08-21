@@ -1,0 +1,18 @@
+
+.divclass{
+    border: 1px solid red;
+    background-color: aquamarine;
+    width: 500px;
+}
+
+button{
+    margin: 10px;
+    border: 1px solid green;
+    padding: 5px;
+
+}
+
+button:hover{
+    background-color: springgreen;
+    
+}
