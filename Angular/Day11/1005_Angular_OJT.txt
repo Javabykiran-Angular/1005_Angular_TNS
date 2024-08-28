@@ -1,0 +1,28 @@
+Last Lecture Agenda
+1 Task Checking 
+inbuild pipe 
+lowercase,uppercase,titlecase,slice
+percent,currency:'INR':'code', number:'1.2-3'
+date:'mediumDate',shortDate,longDate,'dd-MM-yyyy'
+
+
+summary & Interview Questions
+NA
+
+Today's Lecture Agenda
+1 Custome Pipe
+	1 through the CLI pipe create 
+		ng g p pipename
+	2 manual pipe created 
+2 PipeTransform
+3 transform(value :any,...arg:any[])
+@Pipe
+	- Class level Decorator
+4 Pure Pipe
+
+5 Impure Pipe
+
+summary & Interview Questions
+1 How to create Custome Pipe?
+2 What is use of PipeTransform?
+3 Explain Types of Pipe 
