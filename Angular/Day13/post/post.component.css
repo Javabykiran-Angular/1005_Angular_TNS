@@ -1,0 +1,22 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr,th,td{
+    border: 1px solid;
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: green;
+    border-color: green;
+    color: white;
+}
