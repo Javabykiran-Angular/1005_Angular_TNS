@@ -1,0 +1,31 @@
+Last Lecture Agenda
+1 Routing
+	- navigation from one component to another component
+2 Routing steps	
+	1 configure the route => app-routing.module.ts 
+	2 <router-outlet> => component directive 
+	3 establish the link/navigate between component
+3 empty path
+4 wild cart operator
+5 send parameter
+
+summary & Interview Questions
+1 What is routing?
+2 How to set empty path?
+
+Today's Lecture Agenda
+1 Query parameter
+2 Dynamic Routing 
+	=> navigate method => .ts file 
+3 Child Routes
+
+summary & Interview Questions
+1 How to Send Multiple parameter to component?
+2 How to send QueryParameter to component?
+3 What is Dynamic Routing?
+4 How Child Routes Work?
+
+
+
+
+
