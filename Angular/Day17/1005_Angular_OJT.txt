@@ -1,0 +1,80 @@
+Last Lecture Agenda
+1 Query parameter
+	home.ts 
+	jsonObj={
+	...
+	}
+	home.html
+	<a [queryParams]="jsonObj">
+	queryParams.ts 
+	constructor(private route:ActivatedRoute){}
+	
+	getDataFromUrl(){
+		this.route.queryParamMap
+		.subsribe((param:any)=>{
+			this.obj.id=+param.get("id")
+			...
+		})
+		
+	}
+	
+2 Dynamic Routing 
+	=> navigate method => .ts file 
+	constructor(private router:Router){}
+	
+	onpage1(){
+		this.router.navigate(["/Page1",this.myid]);
+	}
+	
+	onqueryParam(){
+		this.router.navigate(["/..."],{
+			queryParams:this.jsonObj
+		});
+	}
+	
+3 Child Routes
+
+	product 
+		mobile,tv,laptop...
+	
+	{
+		path:"product",childern:[
+			{
+				path:"",component:ProductComponent
+			}
+			,
+			...
+		]
+	}
+
+
+summary & Interview Questions
+1 How to Send Multiple parameter to component?
+2 How to send QueryParameter to component?
+3 What is Dynamic Routing?
+4 How Child Routes Work?
+
+Today's Lecture Agenda
+1 Lazy Loading
+	- client is required on that basis we load a particular page/Module(feature module)
+	- to create a module 
+	user => add user , update user ,delete 
+	ng g m user --routing 
+		
+2 Modify the Routing
+
+summary & Interview Questions
+1 How to use Child routes in Angular
+2 What is Lazy Loading
+3 How we can Achieve the lazy loading
+
+
+
+
+
+
+
+
+
+
+
