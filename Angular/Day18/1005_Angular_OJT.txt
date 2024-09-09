@@ -1,0 +1,34 @@
+Last Lecture Agenda
+1 Lazy Loading
+	- client is required on that basis we load a particular page/Module(feature module)
+	- to create a module 
+	user => add user , update user ,delete 
+	ng g m user --routing 
+		
+2 Modify the Routing
+
+summary & Interview Questions
+1 How to use Child routes in Angular
+2 What is Lazy Loading
+3 How we can Achieve the lazy loading
+
+Today's Lecture Agenda
+1 Subject
+2 BehaviorSubject
+3 How to send data to multiple component/ can we send data through the service 
+
+summary & Interview Questions
+1 How to send data to multiple component
+2 What is BehaviorSubject Subject
+
+
+
+
+
+
+
+
+
+
+
+
