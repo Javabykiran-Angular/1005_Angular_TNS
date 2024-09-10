@@ -1,0 +1,41 @@
+Last Lecture Agenda
+1 Subject
+2 BehaviorSubject
+3 How to send data to multiple component/ can we send data through the service 
+
+summary & Interview Questions
+1 How to send data to multiple component
+2 What is BehaviorSubject Subject
+
+Today's Lecture Agenda
+1 Overview of Bootstrap
+	- It is css Freamwork 
+	- It is predefined template classes 
+	- Its makes ur application attractive 
+	- it is used to make application responsive
+2 Integration of Bootstrap 
+	1 Online integrate
+		- 24*7 internet 
+		- CDN Link => Content delevery network
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	2 Offline Integration
+		npm install bootstrap
+		
+3 grid system
+
+summary & Interview Questions
+1 How to integrate bootstrap
+2 What is grid system?
+
+
+
+
+
+
+
+
+
+
+
+
+
