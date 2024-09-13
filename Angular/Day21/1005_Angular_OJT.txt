@@ -1,0 +1,45 @@
+Last Lecture Agenda
+1 Template Driven Form 	
+	- We use to create a simple form => login,signup,f/b,...
+	- All basic level validation is done on view file(html file ) 
+	
+2 FormControl
+	- It is a class 
+	
+	1 valid => true/false
+	2 invalid => true/false 
+	3 touched => true /false 
+	4 pristine => true / false 
+	5 dirty =>  true / false 
+	6 errors => Object 
+	
+	steps 
+	1 FormControl Object => we use ngModel without its notation & name attribute use is mandatory
+	2 Create template ref variable & assign it ngModel.
+	3 u have to use errors object & we have to use required attribute
+	
+summary & Interview Questions
+1 Explain TDF 
+
+Today's Lecture Agenda
+1 Continue TDF 
+2 ngSubmit
+3 ngValue 
+
+summary & Interview Questions
+1 How to use ngSubmit?
+2 Why we use ngValue?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
