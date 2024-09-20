@@ -1,0 +1,92 @@
+Last Lecture Agenda
+1 Test2
+summary & Interview Questions
+NA
+
+Today's Lecture Agenda
+1 Backend Project Discussion => orangization Work Flow 
+	Restsful API 
+	
+	java point 
+		A Country
+			cid =>int=>  primary key => autoincrement
+			cname => string 
+			
+		B Employee 
+			1 id => int => Primary key => autoincrement
+			2 name => String
+			3 mobile no => String
+			4 emailid => String
+			5 department  => String 
+			6 status  => String => (active/inactive/suspend)
+			7 createdBy => String => name who created emp record 
+			8 createdDate => Date= > Java.util.date
+			9 updatedBy => => String =>name who Updated emp record 
+			10 UpdatedDate  => Date 
+			11 salary => double
+			
+			  @ManyToOne
+			11 country => Country
+			
+			API 
+	1 AddCountry  => Response => String 
+	2 GetAllCountry => Response => List=> Country
+	3 getCountryByID => Response => Country Object
+	4 updateCountry => Response => String
+	5 Delete Country => Response => String
+	6 AddEmployee => Response => String
+	7 GetAllEmployee => Response => List => Employee
+	8 GetEmployeeByID => Response => Object => Employee
+	9 updateEmployee => Response => String
+	10 DeleteEmployee => Response => String
+	11 GetAllEmployeeByStatus => Response => List => Employee
+	
+	@CrossOrigin => use On Controller
+	
+	Login API 
+		Registration => Java 
+			1 name 
+			2 gender
+			3 emailid 
+			4 password
+			
+			Response => 
+				case 1 if user is valid 
+						{
+							msg:"Valid User",
+							user : {
+									required user data 
+								}
+						}
+				case 2 if user is Invalid 
+						{
+							msg:"InValid User",
+							user : null
+						}
+			
+		steps 
+			1 Http method => post => @PostMapping 
+			2 Data Received in Controller => Registration
+			3 service => 
+			4 DB Connection => u will get user 
+			5 make the response & send it to frontend 
+			
+	
+			
+
+summary & Interview Questions
+NA for This Session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
