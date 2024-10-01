@@ -1,0 +1,31 @@
+Last Lecture Agenda
+1 Details Page
+2 Add Employee 
+3 Angular Material integration
+
+summary & Interview Questions
+NA for This Session
+
+
+Today's Lecture Agenda
+1 Add Employee  UI 
+2 Send data to Backend
+
+
+summary & Interview Questions
+NA for This Session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

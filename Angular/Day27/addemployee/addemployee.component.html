@@ -13,7 +13,7 @@
           <mat-form-field appearance="outline" class="myclass" [color]="'accent'">
             <mat-label>Employee Name</mat-label>
             <input matInput type="text" placeholder="Enter the Employee Name"
-              #empname="ngModel" ngModel 
+              #empname="ngModel" ngModel [(ngModel)]="empObj.name"
               name="name"        
               required >
 

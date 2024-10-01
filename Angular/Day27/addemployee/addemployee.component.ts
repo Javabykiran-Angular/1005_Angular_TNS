@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { HttpService } from '../http.service';
+import { Router } from '@angular/router';
+import { Employee } from '../utility/employee';
 
 @Component({
   selector: 'app-addemployee',
@@ -11,8 +13,11 @@ export class AddemployeeComponent implements OnInit {
   
 
   allCountry:any[]=[];
+  empObj:Employee=<Employee>{};
 
-  constructor(private service:HttpService){
+  constructor(private service:HttpService,
+    private router:Router
+  ){
 
   }
 
@@ -29,7 +34,31 @@ export class AddemployeeComponent implements OnInit {
 
 
   onSubmit(f:NgForm){
-    
+    let obj={
+      name:f.value.name,
+      phoneno:f.value.phoneno,
+      department:f.value.department,
+      status:f.value.status,
+      country:{
+        cid:f.value.country.cid,
+        cname:f.value.country.cname
+      },
+      createdby:sessionStorage.getItem("username"),
+      createddtm:Date.now(),
+      updatedby:sessionStorage.getItem("username"),
+      updateddtm:Date.now()
+    }
+
+    // console.log(this.empObj.name);
+    // this.empObj.createddtm=Date.now()
+    // this.empObj.createdby=sessionStorage.getItem("username");
+
+    this.service.saveRecord(obj)
+    .subscribe((response)=>{
+     // console.log(response);
+     this.router.navigate(['/home']);
+    })
+
   }
 
 }
