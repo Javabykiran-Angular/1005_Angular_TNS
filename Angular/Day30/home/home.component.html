@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <app-header></app-header>
+</div>
+<br>
+
+
+
+<div class="container-fluid">
+
+    <div>
+        <button routerLink="/addemp" class="btn btn-success">Add Employee</button>
+
+        <button class="btn btn-warning" (click)="onUpdate(popUp)" >Update Employee</button>
+        <button (click)="onDelete()" class="btn btn-danger">Delete Employee</button>
+    </div>
+
+<ng-template #popUp >
+	<app-updateemployee [parentObj]="empObj" ></app-updateemployee>
+    <button (click)="modalRef.hide()" class="btn btn-danger" >Cancel</button>
+</ng-template>
+  
+
+    <br>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>Action</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Status</th>
+                <th>Created By</th>
+                <th>Created Date</th>
+                <th>Updated By</th>
+                <th>Updated Date</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of empData;index as i">
+                <td> {{i+1}} </td>
+                <td><input (click)="onRadio(item)" type="radio" name="select"></td>
+                <td> <a [routerLink]="['/details',item.id]">{{item.name}} </a> </td>
+                <td> {{item.department}} </td>
+                <td><h4><span 
+                       [ngClass]="{
+                        'badge':true,
+                        'rounded-pill':true,
+                        'bg-success':item.status.toLowerCase()==='active',
+                        'bg-danger':item.status.toLowerCase()==='suspend',
+                        'bg-warning':item.status.toLowerCase()==='inactive',
+                       }" 
+                    >{{item.status}}</span> </h4>  </td>
+                <td> {{item.createdby}} </td>
+                <td> {{item.createddtm | date }} </td>
+                <td> {{item.updatedby}} </td>
+                <td> {{item.updateddtm | date:'dd-MM-yyyy'}} </td>
+                <td> {{item.country.cname}} </td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
