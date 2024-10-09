@@ -1,0 +1,34 @@
+Last Lecture Agenda
+1 Filter Pipe
+2 Pagination
+3 Notification
+4 Title Service
+
+summary & Interview Questions
+NA for This Session
+
+Today's Lecture Agenda
+1 Lazy loading
+	ng g m dashboard --routing
+2 Create  environment
+ng g environments
+3 final build
+4 Host on github
+
+
+summary & Interview Questions
+NA for This Session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
